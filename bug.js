@@ -1,0 +1,1 @@
+This error occurs when using Tailwind CSS with a framework like Next.js or Nuxt.js that uses server-side rendering (SSR). The problem is that Tailwind's JIT mode tries to generate the CSS during the build process, which may be incomplete when the page is initially rendered on the server. This results in missing styles on the initial load.
